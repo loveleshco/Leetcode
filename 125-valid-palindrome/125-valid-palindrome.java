@@ -11,8 +11,6 @@ class Solution {
             reverse+=s.charAt(i);
         }
         
-        System.out.println(s+ "         "+reverse);
-        
         return s.equals(reverse);
         
     }
